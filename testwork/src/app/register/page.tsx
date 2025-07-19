@@ -507,15 +507,14 @@ export default function RegisterPage() {
 
   return (
     <div className="relative min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      {/* Background Image Div - ONLY this div has the filter */}
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center z-[-1]"
         style={{
           backgroundImage: "url('/bookbg.jpg')",
-          filter: "brightness(0.7)", // ลดแสงเฉพาะรูปพื้นหลัง
+          filter: "brightness(0.7)",
         }}
       />
-      {/* Container สำหรับ Form - This div has NO filter */}
+
       <div className="max-w-md w-full space-y-8 p-10 bg-white rounded-xl shadow-lg bg-opacity-90">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
